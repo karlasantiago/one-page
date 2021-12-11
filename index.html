@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Exercício Bootstrap</title>
+</head>
+<body>
+    <header>
+        <!--INÍCIO NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg--nav">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="menuNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuNav">
+                    <div class="navbar-nav m-auto">
+                        <a href="#" class="nav-item active btn btn-outline-secondary mx-2 my-1">Homepage</a>
+                        <a href="#" class="nav-item btn btn-outline-secondary mx-2 my-1">About Us</a>
+                        <a href="#" class="nav-item btn btn-outline-secondary mx-2 my-1">Services</a>
+                        <a href="#" class="nav-item btn btn-outline-secondary mx-2 my-1">Contact</a>
+                        <a href="#" class="nav-item btn btn-outline-secondary mx-2 my-1">External</a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </nav>
+
+        <!--INÍCIO DO BANNER PRINCIPAL-->
+        <div class="banner--big d-flex align-items-center">
+            <div class="container text-light d-flex align-items-center flex-column">
+                <h1 class="text-shadows">CONQUER</h1>
+                <span class="text-shadows">Simple Bootstrap Template</span>
+            </div>
+        </div>
+    </header>
+
+    <!--INÍCIO DA PRIMEIRA LINHA DE CARDS-->
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 py-5">
+                <div class="col p-2">
+                    <div class="card text-center bg-light">
+                        <img src="media/t5.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-start text-success">Bootstrap</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                          <a href="#" class="btn btn-success">Button Green</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-2">
+                    <div class="card text-center bg-light">
+                        <img src="media/t2.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-start text-primary">Responsive Design</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                          <a href="#" class="btn btn-primary">See Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-2">
+                    <div class="card text-center bg-light">
+                        <img src="media/t3.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-start text-secondary">Layout</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                          <a href="#" class="btn btn-danger">Button Red</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--INÍCIO DA SEGUNDA LINHA DE CARDS-->
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 pb-5">
+                <div class="col">
+                    <div class="card box--card bg-light">
+                        <img src="media/t1.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder text-center text-secondary">Two Column Left Side</h5>
+                            <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                            <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card box--card bg-light">
+                        <img src="media/t4.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body text-end">
+                            <h5 class="card-title fw-bolder text-center text-secondary">Two Column Right Side</h5>
+                            <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                            <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--AREA DO BANNER SIMPLES-->
+    <aside>
+        <div class="banner--small d-flex align-items-center">
+            <div class="container text-light d-flex align-items-center flex-column">
+                <h1 class="text-shadows">Our Services</h1>
+            </div>
+        </div>
+    </aside>
+
+    <!--INÍCIO DA TERCEIRA LINHA DE CARDS-->
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 py-3">
+                <div class="col">
+                    <div class="card box--card text-center bg-light">
+                        <img src="media/img2.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-center text-secondary">Column One</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card box--card text-center bg-light">
+                        <img src="media/img3.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-center text-secondary">Column Two</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero.</p>
+                          <a href="#" class="btn btn-outline-secondary btn-sm">Read It</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card box--card text-center bg-light">
+                        <img src="media/img4.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-center text-secondary">Column Three</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card box--card text-center bg-light">
+                        <img src="media/img5.jpg" class="card-img-top img-fluid" />
+                        <div class="card-body">
+                          <h5 class="card-title fw-bolder text-center text-secondary">Column Four</h5>
+                          <p class="card-text text--p text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero.</p>
+                          <a href="#" class="btn btn-outline-secondary btn-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!--AREA DO CARD PRINCIPAL DA PÁGINA-->
+    <main>
+        <div class="container my-3">
+            <div class="card bg-light card--big">
+                <img src="media/t3.jpg" class="card-img-top img-fluid" />
+                <div class="card-body">
+                  <h5 class="card-title fw-bolder text-secondary">One Big Column</h5>
+                  <p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                            <p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.</p>
+                  <a href="#" class="btn btn-outline-secondary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--AREA DO FORMULÁRIO-->
+    <section>
+        <div class="banner--contact d-flex align-items-center">
+            <div class="container text-light d-flex align-items-center flex-column">
+                <h1 class="text-shadows">Contact Form</h1>
+
+                <div class="card bg-dark bg-opacity-50 w-75">
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere erat eleifend fringilla. Pellentesque vestibulum odio ac libero ullamcorper, eget dapibus lorem laoreet. Praesent eget odio sapien.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card bg-transparent w-75">
+                    <form class="row">
+                        <div class="col-sm">
+                            <input class="form-control bg-dark bg-opacity-75 text-light my-3" type="text" name="name" placeholder="Name" />
+                            <input class="form-control bg-dark bg-opacity-75 text-light my-3" type="text" name="name" placeholder="Email" />
+                            <input class="form-control bg-dark bg-opacity-75 text-light my-3" type="text" name="name" placeholder="Subject" />
+                        </div>
+                        <div class="col">
+                            <textarea class="form-control bg-dark bg-opacity-75 text-light my-3" name="mensagem" rows="5" placeholder="Your message here..."></textarea>
+                            <button type="submit" class="btn btn-dark">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--RODAPÉ SIMPLES-->
+    <footer>
+        <div class="container text-center d-flex flex-column align-items-center mt-3">
+            <div class="h3">Use it free!</div>
+            <p class="text--p w-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tristique dignissim dui, at posuere</p>
+        </div>
+        <hr/>
+        <p class="text--p text-center">Karla Santiago | 2021</p>
+    </footer>
+
+
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
